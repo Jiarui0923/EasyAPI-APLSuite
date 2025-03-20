@@ -10,12 +10,12 @@ NAME = 'EasyAPI-APLSuite'
 
 
 install_requires = [
-    "easyapi @ git+https://github.com/Jiarui0923/EasyAPI",
+    "easyapi @ git+https://github.com/Jiarui0923/EasyAPI@1.0.1",
     "biopandas",
     "biopython",
     "freesasa",
     "requests",
-    "gpucorex @ git+https://github.com/Jiarui0923/gpuCOREX",
+    "gpucorex @ git+https://github.com/Jiarui0923/gpuCOREX@0.0.2",
     "numpy",
     "pandas",
     "python_on_whales",

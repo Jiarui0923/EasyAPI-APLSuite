@@ -1,0 +1,32 @@
+{
+    "server_name": "apl",
+    "task_queue": {
+        "layouts": [
+            {"cpu":1, "cuda":0},
+            {"cpu":1, "cuda":0}
+        ]
+    },
+    "authenticator": {
+        "type": "memory",
+        "credentials": {
+            "fuv249u3jjjs": {
+                "key": "adhjdvbqovo200320r",
+                "access": ["*"]
+            }
+        }
+    },
+    "iolib": {
+        "file": "iolib.json"
+    },
+    "cache": {
+        "type": "memory",
+        "hash": "MD5"
+    },
+    "modules": [
+        "aplsuite.select_chain",
+        "aplsuite.get_pdb",
+        "aplsuite.mhcii",
+        "aplsuite.regular_mers",
+        "aplsuite.get_seq"
+    ]
+}
